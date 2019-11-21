@@ -20,11 +20,13 @@ Ask your manager to assign to you a norton licence. You will receive a link by e
 
 # Strap MacOS
 
-This will make sure your disk is encrypted, OS up to date, install some developing software among other things. (to learn more about this step check out: https://github.com/MikeMcQuaid/strap)
+This will make sure your disk is encrypted, OS up to date, install some developing software among other things. (to learn more check out: https://github.com/MikeMcQuaid/strap)
+
+Open the Terminal (Application/Other/Terminal
 ```bash
 mkdir -p ~/src
 cd ~/src
-git clone https://github.com/r2dl/r2dl-strap.git
+git clone https://github.com/r2dl/r2dl-strap.git # if git is not installed, it will ask. Run this line again if it is the case.
 cd r2dl-strap
 ./run.sh
 ```
