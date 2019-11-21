@@ -22,7 +22,7 @@ Ask your manager to assign to you a norton licence. You will receive a link by e
 
 This will make sure your disk is encrypted, OS up to date, install some developing software among other things. (to learn more about this step check out: https://github.com/MikeMcQuaid/strap)
 ```bash
-mkidr -p ~/src
+mkdir -p ~/src
 cd ~/src
 git clone https://github.com/r2dl/r2dl-strap.git
 cd r2dl-strap
