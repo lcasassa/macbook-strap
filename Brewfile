@@ -22,6 +22,7 @@ brew "pipenv"
 brew "geckodriver"
 
 cask "google-chrome"
+cask "chromedriver"
 cask "firefox"
 cask "mattermost"
 cask "dotnet-sdk"
