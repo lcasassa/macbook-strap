@@ -19,6 +19,7 @@ brew "watch"
 brew "wget"
 brew "python"
 brew "pipenv"
+brew "geckodriver"
 
 cask "google-chrome"
 cask "firefox"
