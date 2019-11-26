@@ -1,7 +1,5 @@
 # MacBook Setup
 
-[[_TOC_]]
-
 # Apple ID
 
 Create an Account on the MacBook using your Rolls-Royce Apple ID.
@@ -26,8 +24,8 @@ Open the Terminal (Application/Other/Terminal
 ```bash
 mkdir -p ~/src
 cd ~/src
-git clone https://github.com/r2dl/r2dl-strap.git # if git is not installed, it will ask. Run this line again if it is the case.
-cd r2dl-strap
+git clone https://github.com/rolls-royce/macbook-strap.git # if git is not installed, it will ask. Run this line again if it is the case.
+cd macbook-strap
 ./run.sh
 ```
 It will ask for the sudo password (your macos account password) and may request to restart several times. On restart keep executing `bash strap.sh` until you get: 
