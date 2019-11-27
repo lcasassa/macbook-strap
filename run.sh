@@ -12,3 +12,13 @@ if ! test -d homebrew-cask-drivers
   cd homebrew-cask-drivers
   brew cask install Casks/displaylink.rb
 fi
+
+if ! test -f $HOME/.bash_profile
+then
+  cat bash_profile >> $HOME/.bash_profile
+fi
+
+if ! test -f $HOME/.zshrc
+then
+  cat zshrc >> $HOME/.zshrc
+fi
