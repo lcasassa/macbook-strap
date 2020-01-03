@@ -4,7 +4,10 @@ test -f $HOME/.Brewfile || ln -s $PWD/Brewfile $HOME/.Brewfile
 git submodule update --init --recursive
 bash strap/bin/strap.sh
 
-test -f $HOME/.sh/id_rsa || ssh-keygen -t rsa
+if ! test -f $HOME/.ssh/id_rsa
+  then
+  ssh-keygen -t rsa
+fi
 
 if ! test -d homebrew-cask-drivers
   then

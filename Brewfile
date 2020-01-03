@@ -22,6 +22,7 @@ brew "pipenv"
 brew "cython"
 brew "geckodriver"
 brew "bash-completion"
+brew "tesseract"
 
 cask "google-chrome"
 cask "chromedriver"
