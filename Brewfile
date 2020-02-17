@@ -1,4 +1,5 @@
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 cask_args appdir: "/Applications"
 
 brew "imagemagick"
@@ -34,3 +35,4 @@ cask "visual-studio-code"
 cask "pycharm-ce"
 cask "xquartz"
 cask "microsoft-office"
+cask "displaylink"
