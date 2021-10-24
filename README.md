@@ -24,7 +24,7 @@ Open the Terminal (Application/Other/Terminal
 ```bash
 mkdir -p ~/src
 cd ~/src
-git clone https://github.com/rolls-royce/macbook-strap.git # if git is not installed, it will ask. Run this line again if it is the case.
+git clone https://github.com/lcasassa/macbook-strap.git # if git is not installed, it will ask. Run this line again if it is the case.
 cd macbook-strap
 ./run.sh
 ```
