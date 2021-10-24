@@ -24,10 +24,11 @@ Open the Terminal (Application/Other/Terminal
 ```bash
 mkdir -p ~/src
 cd ~/src
-git clone https://github.com/lcasassa/macbook-strap.git # if git is not installed, it will ask. Run this line again if it is the case.
+git clone https://github.com/lcasassa/macbook-strap.git
 cd macbook-strap
 ./run.sh
 ```
+If git is not installed, it will ask. Run the git clone line again if it is the case.
 It will ask for the sudo password (your macos account password) and may request to restart several times. On restart keep executing `bash strap.sh` until you get: 
 ```
 --> Your system is now Strap'd!
